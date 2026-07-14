@@ -1,0 +1,55 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/dongzhiwei/.ohos/config/default_parking_recognition_demo_ubZzgnJzH2mq61MGG9LUGx2yWJZRyYSQqMTdQiOzroI=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BF2FA769F5AF329FF2E2A10B8137EE49623FF870CF72E5915CFE6BB8A0F78FBC17BFA03E49FB208",
+          "profile": "/Users/dongzhiwei/.ohos/config/default_parking_recognition_demo_ubZzgnJzH2mq61MGG9LUGx2yWJZRyYSQqMTdQiOzroI=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/dongzhiwei/.ohos/config/default_parking_recognition_demo_ubZzgnJzH2mq61MGG9LUGx2yWJZRyYSQqMTdQiOzroI=.p12",
+          "storePassword": "0000001B6EA409E3014C393C1A97430D135700F885000C3540A67A4A138F8D2B104903A7FBDAF2DF611D49"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.5(17)",
+        "runtimeOS": "HarmonyOS",
+        "targetSdkVersion": "6.1.0(23)",
+        "buildOption": {
+          "strictMode": {
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "记录用户停车车位号"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "车位记录主入口"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "车位记录"
+    },
+    {
+      "name": "internet_permission_reason",
+      "value": "用于调用配置的大模型接口识别车位号"
+    },
+    {
+      "name": "camera_reason",
+      "value": "用于拍摄车位标识并识别车位号"
+    },
+    {
+      "name": "microphone_reason",
+      "value": "用于录入语音并识别车位号"
+    },
+    {
+      "name": "read_imagevideo_reason",
+      "value": "用于监听系统相机新增照片并识别停车位置"
+    },
+    {
+      "name": "background_running_reason",
+      "value": "用于在后台持续监听停车照片"
+    },
+    {
+      "name": "parking_form_name",
+      "value": "停车位置"
+    },
+    {
+      "name": "parking_form_desc",
+      "value": "显示最近一次保存的停车位置"
+    }
+  ]
+}

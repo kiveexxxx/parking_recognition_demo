@@ -1,0 +1,20 @@
+# Build outputs
+**/build/
+**/.preview/
+*.hap
+
+# DevEco / hvigor generated files
+.hvigor/
+
+# IDE
+.idea/
+
+# Dependencies
+oh_modules/
+entry/oh_modules/
+
+# Local secrets
+**/rawfile/*_config.json
+
+# OS
+.DS_Store
